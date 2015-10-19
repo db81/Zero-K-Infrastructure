@@ -22,6 +22,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixer", "Fixer\Fixer.csproj", "{D6BB29E2-0559-4B7E-8535-9A15230ABA9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp.net", "Zero-K.info\asp.net.csproj", "{06EE7D11-6403-4ABF-AD73-24F8394BA69B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4BB429E9-4530-4F6A-AD51-ABAEDB5044DE} = {4BB429E9-4530-4F6A-AD51-ABAEDB5044DE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalaxyDesigner", "GalaxyDesigner\GalaxyDesigner.csproj", "{BB4AD85D-23E0-429A-8FE4-74E2A58757D5}"
 EndProject

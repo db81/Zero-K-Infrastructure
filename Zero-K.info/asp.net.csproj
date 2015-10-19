@@ -256,6 +256,9 @@
     <Compile Include="Controllers\PostHistoryController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="..\zkwl_test\zkwl.bundle.js">
+      <Link>zkwl.bundle.js</Link>
+    </EmbeddedResource>
     <Content Include="ContentService.svc" />
     <Content Include="favicon.png" />
     <Content Include="Img\abuse.png" />
