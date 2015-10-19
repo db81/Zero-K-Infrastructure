@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "name": "ASP.NET",
+  "private": true,
+  "dependencies": {
+    "weblobby": "https://github.com/springweblobby/swl-website/archive/f2a1335.tar.gz"
+  },
+  "devDependencies": {
+    "grunt": "0.x",
+    "grunt-browserify": "4.x",
+    "reactify": "1.x"
+  }
+}
